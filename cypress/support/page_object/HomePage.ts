@@ -13,11 +13,11 @@ class HomePage{
         cy.wait(1000);
     }
 
-    typeUsername(username){
+    typeUsername(username: string){
         this.elements.userNameElement().type(username);
     }
 
-    typePassword(password){
+    typePassword(password: string){
         this.elements.passwordElement().type(password);
     }
 
