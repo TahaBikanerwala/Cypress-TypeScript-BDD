@@ -1,6 +1,12 @@
 import { defineConfig } from "cypress";
 import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-preprocessor";
 import browserify from "@badeball/cypress-cucumber-preprocessor/browserify";
+import {Formatter} from 'cucumber-json-report-formatter';
+
+const formatter = new Formatter()
+const sourceFile = "./cucumber-messages.ndjson"
+const outputFile = "./reports/cucumber-report.json"
+formatter.parseCucumberJson(sourceFile, outputFile)
 
 async function setupNodeEvents(
   on: Cypress.PluginEvents,
