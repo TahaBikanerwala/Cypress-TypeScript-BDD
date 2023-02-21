@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import { head } from 'cypress/types/lodash';
+
 
 Given('User is logged out', () => {
   cy.visit("/");

@@ -1,3 +1,6 @@
 /node_modules
 /.history
-cypress/videos/
+cypress/videos/*
+reports/html-report/
+cypress/screenshots/*
+cucumber-messages.ndjson
