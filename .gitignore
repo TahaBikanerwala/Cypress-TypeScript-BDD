@@ -1,5 +1,7 @@
 /node_modules
 /.history
+cypress/videos/
+reports/
 cypress/videos/*
 reports/html-report/
 cypress/screenshots/*

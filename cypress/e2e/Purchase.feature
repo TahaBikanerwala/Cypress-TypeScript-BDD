@@ -1,0 +1,7 @@
+Feature: Purchase Products
+    Scenario: Add products to cart, compare the total and purchase them86
+        Given User is logged in 
+        And Selects multiple products to add in cart
+        And Compares individual price with total price
+        Then The price should match
+        And User should be able to buy the product

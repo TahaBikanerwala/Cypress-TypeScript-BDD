@@ -5,6 +5,8 @@ declare namespace Cypress {
        * @example cy.click('username','password')
        */
        sign_in(username: string, password: string):Chainable<Element>;
-       sign_up( el: Element, name: string, lname: string)
+       select_product(productName: string):string;
+       getPrices();
+       deleteFromCart();
     }
   }
