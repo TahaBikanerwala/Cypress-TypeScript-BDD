@@ -9,7 +9,6 @@ Given('User is logged in', () => {
 Given('Selects multiple products to add in cart', () => {
   cy.select_product('Samsung galaxy s6');
   cy.select_product('lumia');
-  cy.select_product('Nexus');
 });
 
 Given('Compares individual price with total price', () => {
