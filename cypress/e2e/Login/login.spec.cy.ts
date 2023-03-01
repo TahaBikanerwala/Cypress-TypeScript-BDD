@@ -14,10 +14,10 @@ When('inputs the password', () => {
     homePage.typePassword("test123")
 });
 
-When(/^User attempts to Login$/, () => {
+When('User attempts to Login', () => {
    homePage.clickLoginButton() 
 });
 
-Then(/^User should see Products page$/, () => {
+Then('User should see Products page', () => {
     homePage.getAccountUser().should('include.text','cypress_test');
 });
