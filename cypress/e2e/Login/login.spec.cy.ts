@@ -11,11 +11,11 @@ When('inputs the username', () => {
 });
 
 When('inputs the password', () => {
-    homePage.typePassword("test123")
+    homePage.typePassword("test123");
 });
 
 When('User attempts to Login', () => {
-   homePage.clickLoginButton() 
+   homePage.clickLoginButton();
 });
 
 Then('User should see Products page', () => {
