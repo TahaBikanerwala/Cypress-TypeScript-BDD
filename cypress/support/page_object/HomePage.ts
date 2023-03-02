@@ -1,4 +1,3 @@
-
 class HomePage{
     elements={
         loginLink:  ()=> cy.get("#login2"),
