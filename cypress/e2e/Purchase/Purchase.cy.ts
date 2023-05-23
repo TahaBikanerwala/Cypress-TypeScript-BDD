@@ -8,8 +8,8 @@ Given('User is logged in', () => {
 });
 
 Given('Selects multiple products to add in cart', () => {
-  cy.select_product('Samsung galaxy s6');
-  // cy.select_product('Asus Full HD');
+  // cy.select_product('Samsung galaxy s6');
+  cy.select_product('Asus Full HD');
 });
 
 Given('Compares individual price with total price', () => {
