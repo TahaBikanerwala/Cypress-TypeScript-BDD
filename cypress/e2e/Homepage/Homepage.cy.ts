@@ -15,5 +15,6 @@ Then('User should see the homepage title as {string}', (title) => {
 
 Then('User should see Heading as {string}', (heading) => {
   cy.get('#nava').should('include.text',heading);
+  cy.get('.dropdown-link-2.w-dropdown-link').click();
 });
 
