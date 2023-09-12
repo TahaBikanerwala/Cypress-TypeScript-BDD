@@ -1,10 +1,12 @@
 import { Given, Then } from "@badeball/cypress-cucumber-preprocessor";
 import cartPage from "../../support/page_object/CartPage";
 
+let username = "cypress_test"
+let password = "test123"
 
 Given('User is logged in', () => {
   cy.visit("/");
-  cy.sign_in("cypress_test","test123");
+  cy.sign_in(username, password)
 });
 
 Given('Selects multiple products to add in cart', () => {
