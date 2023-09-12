@@ -7,14 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "runTest": "npx cypress run"
   },
-  "keywords": ["cypress","bdd","typescript","htmlreport","cucumber"],
+  "keywords": [
+    "cypress",
+    "bdd",
+    "typescript",
+    "htmlreport",
+    "cucumber"
+  ],
   "author": "Taha Bikanerwala",
   "license": "ISC",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
     "@cypress/browserify-preprocessor": "^3.0.2",
     "cucumber-json-report-formatter": "^0.1.4",
-    "cypress": "^12.3.0",
+    "cypress": "^13.1.0",
     "cypress-fill-command": "^1.0.2",
     "multiple-cucumber-html-reporter": "^3.1.0",
     "npm-run-all": "^4.1.5",
