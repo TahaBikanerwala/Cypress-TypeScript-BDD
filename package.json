@@ -7,7 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "runTest": "npx cypress run"
   },
-  "keywords": ["cypress","bdd","typescript","htmlreport","cucumber"],
+  "keywords": [
+    "cypress",
+    "bdd",
+    "typescript",
+    "htmlreport",
+    "cucumber"
+  ],
   "author": "Taha Bikanerwala",
   "license": "ISC",
   "devDependencies": {

@@ -26,9 +26,9 @@
 Cypress.Commands.add("sign_in", (username: string, password: string) => {
     cy.get("#login2").click();
     cy.wait(5000);
-    cy.get("#loginusername").type(username),
-        cy.get("#loginpassword").type(password),
-        cy.get('button').contains("Log in").click();
+    cy.get("#loginusername").type(username);
+    cy.get("#loginpassword").type(password);
+    cy.get('button').contains("Log in").click({ force: true });
 })
 
 Cypress.Commands.add("select_product", (productName: string) => {
